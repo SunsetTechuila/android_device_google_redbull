@@ -109,6 +109,9 @@
     <!-- If device supports pickup/lift gesture -->
     <bool name="config_dozePulsePickup">true</bool>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
     <!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">7</integer>
 

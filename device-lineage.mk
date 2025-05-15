@@ -90,3 +90,5 @@ PRODUCT_PACKAGES += \
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+
+PRODUCT_DISABLE_SCUDO := true

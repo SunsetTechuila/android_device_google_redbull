@@ -11,3 +11,7 @@ binder_use(platform_app)
 
 allow platform_app hal_wireless_charger_service:service_manager find;
 binder_call(platform_app, hal_wireless_charger)
+
+# CPU Info
+allow platform_app sysfs_thermal:dir search;
+allow platform_app sysfs_thermal:file r_file_perms;

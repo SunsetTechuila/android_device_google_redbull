@@ -69,3 +69,6 @@
 
 #vendor_kernel_modules
 /vendor/lib/modules/.*\.ko                                                             u:object_r:vendor_kernel_modules:s0
+
+# CPU Info
+/sys/class/thermal/thermal_zone0/temp                                                 u:object_r:sysfs_thermal:s0

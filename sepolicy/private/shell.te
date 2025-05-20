@@ -1,0 +1,1 @@
+allow shell auditctl_exec:file { getattr read open execute_no_trans execute };

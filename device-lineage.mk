@@ -39,6 +39,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleParts
 
+# Muzza
+$(call inherit-product, packages/apps/Muzza/config.mk)
+
 # RCS
 PRODUCT_PACKAGES += \
     PresencePolling \

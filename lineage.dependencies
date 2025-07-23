@@ -6,5 +6,9 @@
   {
     "repository": "android_kernel_google_redbull",
     "target_path": "kernel/google/redbull"
+  },
+  {
+    "repository": "Maloy-Android/packages_apps_Muzza",
+    "target_path": "packages/apps/Muzza"
   }
 ]
